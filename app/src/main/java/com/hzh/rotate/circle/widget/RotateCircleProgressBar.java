@@ -91,7 +91,7 @@ public class RotateCircleProgressBar extends View {
 
         ValueAnimator animator = ValueAnimator.ofFloat(0, 360);
         animator.setInterpolator(new LinearInterpolator());
-        animator.setDuration(800);
+        animator.setDuration(600);
         animator.setRepeatCount(ValueAnimator.INFINITE);
         animator.setRepeatMode(ValueAnimator.RESTART);
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
